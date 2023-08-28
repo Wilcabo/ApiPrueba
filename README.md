@@ -13,13 +13,13 @@ http://localhost:8000/api/characters/    //RUTA PARA OBTENER TODO LOS REGISTROS
 http://localhost:8000/api/characters?id=673&name=wilsonpruebaapi&status=alive&type=Gromflomite&location={\"name\":\"NX-5 Planet Remover\",\"url\":\"https://rickandmortyapi.com/api/location/105\"}&image=https://rickandmortyapi.com/api/character/avatar/670.jpeg&episode=[\"https://rickandmortyapi.com/api/episode/41\"]&created=2020-08-13T12:56:31.130Z        // rUTA PARA CREAR UN REGISTRO 
 
 (GET)
-localhost:8000/api/characters/1                  // RUTA PARA OBTENER CUALQUIER REGISTRO REEMPLAZAR 1 POR CUALQUIER ID 
+http://localhost:8000/api/characters/1                  // RUTA PARA OBTENER CUALQUIER REGISTRO REEMPLAZAR 1 POR CUALQUIER ID 
 
 (PUT)
-localhost:8000/api/characters/1               // RUTA PARA ACTUALIZAR UN REGISTRO PARA ESTA PRUEBA SIMULE UN METODO PUT ENVIANDO COMO POST POST ADJUNTARE PANTALLAZO DEL PROCESO
+http://localhost:8000/api/characters/1               // RUTA PARA ACTUALIZAR UN REGISTRO PARA ESTA PRUEBA SIMULE UN METODO PUT ENVIANDO COMO POST POST ADJUNTARE PANTALLAZO DEL PROCESO
 
 (DELETE )
-localhost:8000/api/characters/delete/1     // RUTA PARA ELIMINAR UN REGISTRO.
+http://localhost:8000/api/characters/delete/1     // RUTA PARA ELIMINAR UN REGISTRO.
 
 
 ## ENDPOINTS PARA LA ENTIDAD EPISODES
@@ -31,13 +31,13 @@ http://localhost:8000/api/episodes/
 http://localhost:8000/api/episodes?parametros_incluir el cuerpo del postman
 
 (GET)
-localhost:8000/api/episodes/1   
+http://localhost:8000/api/episodes/1   
 
 (PUT)
-localhost:8000/api/episodes/1  
+http://localhost:8000/api/episodes/1  
 
 (DELETE )
-localhost:8000/api/episodes/delete/1
+http://localhost:8000/api/episodes/delete/1
 
 
 
@@ -46,16 +46,16 @@ localhost:8000/api/episodes/delete/1
 ## ENDPOINTS PARA LA ENTIDAD LOCATIONS
 
 (GET)
-http://localhost:8000/api/locations/   
+http://http://localhost:8000/api/locations/   
 
 (POST)
-http://localhost:8000/api/locations?parametros_incluir el cuerpo del postman
+http://http://localhost:8000/api/locations?parametros_incluir el cuerpo del postman
 
 (GET)
-localhost:8000/api/locations/1   
+http://localhost:8000/api/locations/1   
 
 (PUT)
-localhost:8000/api/locations/1  
+http://localhost:8000/api/locations/1  
 
 (DELETE )
-localhost:8000/api/locations/delete/1
+http://localhost:8000/api/locations/delete/1
